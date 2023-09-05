@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mid ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: -90px;
+  margin-left: 134px;
+  width: 1500px;
+}
+.mid ul li {
+  padding: 10px;
+  margin: 10px;
+  font-size: 23px;
+  font-weight: 900;
+}
+.mid ul li a {
+  text-decoration: none;
+  color: white;
+}
+.mid ul li a:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.4s;
+}
+.left img {
+  width: 311px;
+  height: 93px;
+  margin-left: 29px;
+  margin-top: 22px;
+}
+.right {
+  margin-top: -90px;
+  margin-left: 1461px;
+  width: 300px;
+  height: 90px;
+}
+body {
+  background-image: url(images/CharityCover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(4px);
+}
+.right .btn {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.right .btn:hover {
+  background-color: #aa4646;
+  color: #ffffff;
+  transition: 0.4s;
+}
+.headonpic {
+  width: 437px;
+  margin-left: 158px;
+  margin-top: 214px;
+  height: 388px;
+}
+/* .head {
+  border: 2px solid red;
+} */
+.head h1 {
+  color: white;
+  font-size: 65px;
+}
+.head p {
+  color: white;
+  font-size: 25px;
+  margin-top: 21px;
+  font-weight: bolder;
+}
+.button {
+  background-color: #31d5a4;
+  color: #f7f7f7;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 4px;
+  margin-top: 35px;
+  width: 222px;
+  height: 61px;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.4s;
+  padding: 5px;
+}
+.upcomingProjects {
+  margin-top: 290px;
+
+  background: #e7ddd8;
+}
+.leftimage img {
+  margin-top: 100px;
+  margin-left: 168px;
+}
+.rightText {
+  margin-top: -500px;
+  margin-left: 1056px;
+  width: 500px;
+  height: 500px;
+}
+.rightText h1 {
+  margin-top: -17px;
+  font-size: 18px;
+  color: rgb(57, 26, 171);
+}
+.rightText p {
+  margin-top: 36px;
+  font-size: 21px;
+}
+.rightText h2 {
+  margin-top: 43px;
+  font-size: 54px;
+}
+.aboutus {
+  height: 800px;
+  border: 2px solid blue;
+}
+.leftabout h1 {
+  color: rgb(55, 171, 181);
+  margin-left: 143px;
+  margin-top: 89px;
+}
+.leftabout {
+  width: 1000px;
+  height: 575px;
+  margin-top: 71px;
+}
+.buttonabout {
+  background-color: #f56f1e;
+  color: #f7f7f7;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 122px;
+  margin-top: 32px;
+  width: 248px;
+  height: 65px;
+}
+.buttonabout:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.4s;
+  padding: 5px;
+}
+.leftabout h2 {
+  height: 187px;
+  width: 500px;
+  margin-left: 128px;
+  font-size: 38px;
+  margin-top: 26px;
+}
+.leftabout p {
+  width: 543px;
+  margin-left: 127px;
+  margin-top: -47px;
+  font-size: 28px;
+  font-style: italic;
+}
+.rightabou img {
+  margin-top: -609px;
+  margin-left: 928px;
+}
+.donateList {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.DonateOne {
+  width: 575px;
+  height: 631px;
+  background: rgb(230, 230, 227);
+}
+.DonateOne img {
+  width: 575px;
+}
+.DonateOne h1 {
+  margin-top: 33px;
+  margin-left: 37px;
+  font-size: 30px;
+  color: rgb(28, 28, 79);
+}
+.DonateOne p {
+  margin-top: 20px;
+  margin-left: 36px;
+  font-size: 20px;
+  color: rgb(28, 28, 79);
+  width: 518px;
+}
+.DonateOne button {
+  margin-left: 152px;
+}
+
+.DonateTwo {
+  width: 575px;
+  height: 631px;
+  background: rgb(230, 230, 227);
+}
+.DonateTwo img {
+  width: 575px;
+}
+.DonateTwo h1 {
+  margin-top: 33px;
+  margin-left: 37px;
+  font-size: 30px;
+  color: rgb(28, 28, 79);
+}
+.DonateTwo p {
+  margin-top: 20px;
+  margin-left: 36px;
+  font-size: 20px;
+  color: rgb(28, 28, 79);
+  width: 518px;
+}
+.DonateTwo button {
+  margin-left: 152px;
+}
+
+.DonateThree {
+  width: 575px;
+  height: 631px;
+  background: rgb(230, 230, 227);
+}
+.DonateThree img {
+  width: 575px;
+}
+.DonateThree h1 {
+  margin-top: 33px;
+  margin-left: 37px;
+  font-size: 30px;
+  color: rgb(28, 28, 79);
+}
+.DonateThree p {
+  margin-top: 20px;
+  margin-left: 36px;
+  font-size: 20px;
+  color: rgb(28, 28, 79);
+  width: 518px;
+}
+.DonateThree button {
+  margin-left: 152px;
+}
+.helping {
+  margin-top: 40px;
+}
+.leftHelping img {
+  margin-top: 62px;
+  margin-left: 284px;
+}
+.rightHelping {
+  margin-top: -500px;
+  margin-left: 1056px;
+  width: 500px;
+  height: 500px;
+}
+.rightHelping h1 {
+  color: #28d1da;
+  font-size: 21px;
+}
+.rightHelping h2 {
+  margin-top: 19px;
+  font-size: 51px;
+  color: #20205a;
+}
+.rightHelping p {
+  margin-top: 38px;
+  font-size: 22px;
+}
+.rightbutton {
+  background-color: #fff;
+  color: #fc7b48;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 122px;
+  margin-top: 32px;
+  width: 248px;
+  height: 65px;
+  border: 2px solid;
+}
+.rightbutton:hover {
+  background-color: #fc7b48;
+  color: #fff;
+  transition: 0.4s;
+  padding: 5px;
+}
+.How {
+  border: 2px solid red;
+  height: 550px;
+  background: rgb(218, 99, 72);
+}
+.How h1 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 792px;
+  margin-top: 60px;
+}
+.How h2 {
+  margin-left: 658px;
+  margin-top: 21px;
+  font-size: 50px;
+  color: white;
+}
+.heading1 {
+  font-weight: 900;
+  margin-top: 119px;
+  width: 350px;
+  font-size: 41px;
+  color: white;
+  margin-left: 78px;
+}
+.paragraph1 {
+  width: 421px;
+  font-size: 22px;
+  color: white;
+  font-style: italic;
+  margin-top: 31px;
+  margin-left: 69px;
+}
+.heading2 {
+  font-weight: 900;
+  margin-top: 119px;
+  width: 350px;
+  font-size: 41px;
+  color: white;
+  margin-left: 78px;
+}
+.paragraph2 {
+  width: 421px;
+  font-size: 22px;
+  color: white;
+  font-style: italic;
+  margin-top: 31px;
+  margin-left: 69px;
+}
+
+.heading3 {
+  font-weight: 900;
+  margin-top: 119px;
+  width: 350px;
+  font-size: 41px;
+  color: white;
+  margin-left: 78px;
+}
+.paragraph3 {
+  width: 421px;
+  font-size: 22px;
+  color: white;
+  font-style: italic;
+  margin-top: 31px;
+  margin-left: 69px;
+}
+.list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Space out the content */
+  max-width: 1759px; /* Optional max width for the footer */
+  height: 40px;
+  background-color: #000000; /* Optional background color */
+  color: #fff; /* Optional text color */
+  padding: 20px;
+}
+
+/* CSS for the copyright text */
+.copyright {
+  font-size: 24px; /* Optional font size */
+}
+
+/* CSS for the footer navigation menu */
+.pageul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.pageli {
+  font-size: 24px;
+  margin-right: 20px; /* Optional spacing between menu items */
+}
+
+.pageli a {
+  text-decoration: none;
+  color: #fff; /* Optional text color for links */
+  font-weight: bold; /* Optional font weight for links */
+}
+
+/* Optional hover effect for links */
+.pageli a:hover {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.4s;
+}
